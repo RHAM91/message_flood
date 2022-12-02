@@ -10,15 +10,15 @@
                         <label for="">Token bot Telegram</label>
                         <b-form-input type="text" id="btoken" v-model="token_bot_telegram" size="sm"></b-form-input>
                     </b-col>
-                    <b-col sm="8" class="mt-3">
+                    <b-col sm="5" class="mt-3">
                         <label for="">Chat ID</label>
                         <b-form-input type="text" v-model="id_chat" size="sm"></b-form-input>
                     </b-col>
-                    <b-col sm="2" class="mt-3">
-                        <label for="">Segundos entre intervalos</label>
+                    <b-col sm="3" class="mt-3">
+                        <label for="">Invervalos (seg)</label>
                         <b-form-input type="number" v-model="segundos" size="sm"></b-form-input>
                     </b-col>
-                    <b-col sm="2" class="mt-3">
+                    <b-col sm="4" class="mt-3">
                         <label for="">Número de mensajes</label>
                         <b-form-input type="number" v-model="paquetes" size="sm"></b-form-input>
                     </b-col>
